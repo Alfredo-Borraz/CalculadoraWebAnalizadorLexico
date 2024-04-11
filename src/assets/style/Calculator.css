@@ -1,0 +1,81 @@
+.container{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+
+}
+
+#cal-body {
+    width: 28rem;
+    height: auto;
+    border-radius: 3.25rem;
+    background: #0a0a0a;
+    box-shadow: -5px -5px 9px rgba(255,255,255,0.45), 5px 5px 9px rgba(94,104,121,0.3);
+    padding: 35px;
+    scale: 0.8;
+  }
+  
+  .input input {
+    height: 8rem;
+    width: 85%;
+    border-radius: 10px;
+    background: #717273;
+    
+    border: 0;
+    color: rgb(255, 255, 255);
+    font-size: 3rem;
+    padding: 0 30px;
+  }
+  
+  .input input:focus {
+    outline: none;
+    background: #717273;
+  }
+  
+  .buttons button {
+    cursor: pointer;
+    height: 5rem;
+    width: 8rem;
+    border: 0;
+    font-size: 3.5rem;
+    border-radius: 40px;
+    background: #858585;
+    color: rgb(255, 255, 255);
+  }
+  
+  .buttons button:focus {
+    background: #858585;
+
+  }
+  
+  .buttons {
+    padding-top: 0.875rem;
+    display: flex;
+    justify-content: center;
+  }
+
+  .estiloImpresion{
+    display: flex;
+    justify-content: justify;
+    align-items: justify;
+    cursor: pointer;
+    font-size: 1.5rem;
+    color: rgb(137, 137, 137);
+  }
+
+  .tituloOperaciones{
+    font-size: 3rem;
+    color: rgb(117, 117, 117);
+    text-align: center;
+  }
+
+  #operations{
+    border: 3px solid black;
+    border-radius: 15px;
+  }
+  .impresionTokens{
+    border: 3px solid black;
+    border-radius: 15px;
+    margin-left: 15rem;
+    margin-block-end: auto;
+  }
